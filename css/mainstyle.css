@@ -1,15 +1,18 @@
 .main {
-  background-color: rgb(78, 228, 255);
+  background-color: #a594f9;
   width: 800px;
   height: 1000px;
   margin: auto;
-  margin-top: 70px;
   margin-bottom: 45px;
+  border-radius: 5%;
 }
 
 body {
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  background-image: url(/resources/hz_middelburg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .first {
@@ -24,6 +27,7 @@ body {
 
 div, header {
   text-align: center;
+  display: block;
   width: 40%;
   position: relative;
 }
@@ -40,14 +44,32 @@ p {
   font-size: 20px;
 }
 
-.center {
+.center_hz {
   text-align: center;
-  margin-left: 37%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2px;
+  margin-top: 25px;
+  width: 150px;
+  height: 150px;
 }
 
-.hz_background_img {
-  position: absolute;
-  margin-left: auto;
-  margin-bottom: auto;
+.center2 {
+  text-align: center;
+  display: block;
+  margin-left: 77%;
+  margin-right: 50%;
+  border-radius: 50%;
+  margin-top: 15px;
 }
+
+a {
+  color: #E5D9F2;
+}
+
+a:hover {
+  color: #F5EFFF;
+}
+
 
