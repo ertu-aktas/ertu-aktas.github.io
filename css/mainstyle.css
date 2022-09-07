@@ -25,6 +25,7 @@ body {
 div, header {
   text-align: center;
   width: 40%;
+  position: relative;
 }
 
 nav {
@@ -38,3 +39,15 @@ p {
   margin-bottom: 65px;
   font-size: 20px;
 }
+
+.center {
+  text-align: center;
+  margin-left: 37%;
+}
+
+.hz_background_img {
+  position: absolute;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
