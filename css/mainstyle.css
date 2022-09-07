@@ -1,5 +1,5 @@
 .main {
-  background-color: #a594f9;
+  background-color: #8d76ffed;
   width: 800px;
   height: 1000px;
   margin: auto;
@@ -7,25 +7,23 @@
   border-radius: 5%;
 }
 
+.groter {
+  color: #514efe;
+  font-size: 45px;
+  text-shadow: 3px 3px #6464655f;
+  font-family: Verdana, Tahoma, sans-serif;
+  height: 40px
+}
+
 body {
   color: rgb(0, 0, 0);
-  background-image: url(/resources/hz_middelburg.jpg);
+  background-image: url(/resources/Aanlichten\ Middelburg_0.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.first {
-  font-size: 15pt;
-}
-
-#test {
-  color: rgb(17, 0, 249);
-  font-size: 40pt;
-  text-decoration: underline;
-}
-
-div, header {
+div {
   text-align: center;
   display: block;
   width: 40%;
@@ -38,10 +36,9 @@ nav {
   margin-left: 15px;
 }
 
-p {
-  margin-top: 25px;
-  margin-bottom: 65px;
+.grid {
   font-size: 20px;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 .center_hz {
@@ -65,11 +62,27 @@ p {
 }
 
 a {
-  color: #E5D9F2;
+  color: #DBBFDB;
 }
 
 a:hover {
-  color: #F5EFFF;
+  color: white;
 }
 
+a:active {
+  color: #7371FC;
+}
 
+.columns {
+  display: table;
+  row-gap: 5px;
+  float: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
