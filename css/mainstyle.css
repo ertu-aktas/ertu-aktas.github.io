@@ -1,0 +1,40 @@
+.main {
+  background-color: rgb(78, 228, 255);
+  width: 800px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.first {
+  font-size: 15pt;
+}
+
+#test {
+  color: rgb(17, 0, 249);
+  font-size: 40pt;
+  text-decoration: underline;
+}
+
+div, header {
+  text-align: center;
+  width: 40%;
+}
+
+nav {
+  position: relative;
+  text-align: left;
+  margin-left: 15px;
+}
+
+p {
+  margin-top: 25px;
+  margin-bottom: 65px;
+  font-size: 20px;
+}
