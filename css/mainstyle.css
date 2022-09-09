@@ -18,7 +18,7 @@ body {
   color: rgb(0, 0, 0);
   background-image: url(/resources/Aanlichten\ Middelburg_0.jpg);
   background-repeat: no-repeat;
-  background-position: fixed;
+  background-position: absolute;
   background-size: cover;
   font-family: Verdana, Tahoma, sans-serif;
 }
@@ -112,7 +112,7 @@ a:active {
 }
 
 h2 {
-  color: #c7c6e0;
+  color: #a6c7ff;
   text-shadow: 3px 3px #6464655f;
   font-size: 25px;
 }
@@ -193,4 +193,30 @@ section h2 {
 .negativelist {
   float: right;
   margin-right: 45px;
+}
+
+.aboutmeheader {
+  margin-top: 70px;
+}
+
+.aboutme {
+  text-align: left;
+  color: #c7c6e0;
+  text-shadow: 2px 2px #6464655f;
+}
+
+.divtable {
+  width: 750px;
+  height: 1100px;
+  margin-top: 100px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+table {
+  height: 1100px;
+  width: 750px;
 }
