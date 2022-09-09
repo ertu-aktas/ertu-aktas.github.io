@@ -8,10 +8,9 @@
 }
 
 .groter {
-  color: #514efe;
+  color: #a6c7ff;
   font-size: 45px;
   text-shadow: 3px 3px #6464655f;
-  font-family: Verdana, Tahoma, sans-serif;
   height: 40px
 }
 
@@ -21,6 +20,7 @@ body {
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 div {
@@ -35,8 +35,6 @@ nav {
   text-align: left;
   margin-left: 15px;
   font-size: 20px;
-  font-family: Verdana, Tahoma, sans-serif;
-
 }
 
 .center_hz {
@@ -64,6 +62,7 @@ nav a {
   padding-left: 30px;
   padding-right: auto;
   text-decoration: none;
+  text-shadow: 2px 2px #6464655f;
 }
 
 footer a {
@@ -89,6 +88,8 @@ footer {
 
 a:hover {
   color: white;
+  filter: brightness(135%);
+  filter: drop-shadow(5px 5px 7px rgba(115, 241, 255, 0.866));
 }
 
 a:active {
@@ -107,3 +108,22 @@ a:active {
   margin-bottom: 20px;
 }
 
+.ltop {
+  text-align: left;
+  width: 250px;
+  color: #c7c6e0;
+  text-shadow: 2px 2px #6464655f;
+}
+
+H2 {
+  color: #c7c6e0;
+  text-shadow: 3px 3px #6464655f;
+}
+
+.section1 {
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  margin-top: 180px;
+  margin-left: 150px;
+}
