@@ -212,8 +212,10 @@ section h2 {
 }
 
 table, th, td {
+  color: #c7c6e0;
   border: 1px solid;
   border-collapse: collapse;
+  border-color: #22215d;
 }
 
 table {
