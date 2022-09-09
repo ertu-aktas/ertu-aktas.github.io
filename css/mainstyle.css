@@ -23,6 +23,10 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
 }
 
+body div div {
+  margin: auto;
+}
+
 div {
   text-align: center;
   display: block;
@@ -49,10 +53,9 @@ nav {
 }
 
 .center2 {
-  text-align: center;
   display: block;
-  margin-left: 77%;
-  margin-right: 50%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
   margin-top: 15px;
 }
@@ -108,22 +111,86 @@ a:active {
   margin-bottom: 20px;
 }
 
-.ltop {
-  text-align: left;
-  width: 250px;
-  color: #c7c6e0;
-  text-shadow: 2px 2px #6464655f;
-}
-
-H2 {
+h2 {
   color: #c7c6e0;
   text-shadow: 3px 3px #6464655f;
+  font-size: 25px;
 }
 
 .section1 {
-  position: absolute;
+  float: left;
   height: 50px;
-  width: 200px;
-  margin-top: 180px;
-  margin-left: 150px;
+  width: 160px;
+  margin-top: 15%;
+  margin-left: 10%;
+  color: #c7c6e0;
+  text-align: left;
+  width: 250px;
+  text-shadow: 2px 2px #6464655f;
+}
+
+.section2 {
+  float: right;
+  height: 50px;
+  width: 160px;
+  margin-top: 15%;
+  margin-right: 5%;
+  color: #c7c6e0;
+  text-align: left;
+  width: 250px;
+  text-shadow: 2px 2px #6464655f;
+}
+
+.section3 {
+  float: left;
+  height: 50px;
+  width: 160px;
+  margin-top: 35%;
+  margin-left: 10%;
+  color: #c7c6e0;
+  text-align: left;
+  width: 270px;
+  text-shadow: 2px 2px #6464655f;
+}
+
+.section4 {
+  float: right;
+  height: 50px;
+  width: 160px;
+  margin-top: 35%;
+  margin-right: 5%;
+  color: #c7c6e0;
+  text-align: left;
+  width: 250px;
+  text-shadow: 2px 2px #6464655f;
+}
+
+body div div {
+  width: 800px;
+  height: 800px;
+}
+
+section h2 {
+  float: center
+}
+
+.fleft {
+  float: left;
+  font-size: 15px;
+}
+
+.fright {
+  float: right;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.positivelist {
+  float: left;
+  margin-left: -20px;
+}
+
+.negativelist {
+  float: right;
+  margin-right: 45px;
 }
