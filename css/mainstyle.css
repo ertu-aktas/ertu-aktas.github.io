@@ -30,12 +30,6 @@ div {
   position: relative;
 }
 
-div h2 {
-  margin-top: 45px;
-  height: 60%;
-  padding-top: ;
-}
-
 nav {
   position: relative;
   text-align: left;
@@ -199,7 +193,7 @@ section h2 {
 }
 
 .aboutmeheader {
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 .aboutme {
@@ -218,7 +212,9 @@ section h2 {
   margin-left: -15px;
 }
 
-table, th, td {
+table,
+th,
+td {
   color: #c7c6e0;
   border: 1px solid;
   border-collapse: collapse;
@@ -230,3 +226,41 @@ table {
   width: 750px;
 }
 
+.topmargin {
+  margin-top: 65px;
+}
+
+body div div div p {
+  text-align: left;
+  color: #c7c6e0;
+  text-shadow: 2px 2px #6464655f;
+}
+
+body div footer {
+  margin-right: -40px;
+  text-shadow: 2px 2px #6464655f;
+  width: 850px;
+}
+
+.instapadding {
+  margin-left: 140px
+}
+
+ body div div div img {
+  padding-top: 55px;
+  float: left;
+  width: 33.33%;
+  height: 282.3px;
+ }
+
+ .figleft {
+
+ }
+
+ .figcenter {
+  
+ }
+
+ .figright {
+
+ }
