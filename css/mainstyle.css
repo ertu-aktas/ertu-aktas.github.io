@@ -20,6 +20,7 @@ body {
   background-repeat: no-repeat;
   background-position: absolute;
   background-size: cover;
+  background-attachment: fixed;
   font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -252,15 +253,27 @@ body div footer {
   width: 33.33%;
   height: 282.3px;
  }
+ body div div div div {
+  height: 350px;
+ }
 
  .figleft {
-
+  width: 33.33%;
  }
 
  .figcenter {
-  
+  margin-top: -17px;
+  margin-left: 33.33%;
+  width: 33.33%;
  }
 
- .figright {
+ .figright {  
+ width: 33.33%;
+ margin-left: 66.66%;
+ margin-top: -20px;
+ }
 
+ figcaption {
+  color: #c7c6e0;
+  text-shadow: 2px 2px #6464655f;
  }
