@@ -23,15 +23,17 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
 }
 
-body div div {
-  margin: auto;
-}
-
 div {
   text-align: center;
   display: block;
   width: 40%;
   position: relative;
+}
+
+div h2 {
+  margin-top: 45px;
+  height: 60%;
+  padding-top: ;
 }
 
 nav {
@@ -62,7 +64,8 @@ nav {
 
 nav a {
   color: #DBBFDB;
-  padding-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-right: auto;
   text-decoration: none;
   text-shadow: 2px 2px #6464655f;
@@ -134,10 +137,9 @@ h2 {
   height: 50px;
   width: 160px;
   margin-top: 15%;
-  margin-right: 5%;
   color: #c7c6e0;
   text-align: left;
-  width: 250px;
+  width: 300px;
   text-shadow: 2px 2px #6464655f;
 }
 
@@ -166,8 +168,9 @@ h2 {
 }
 
 body div div {
-  width: 800px;
+  width: 850px;
   height: 800px;
+  margin: auto;
 }
 
 section h2 {
@@ -211,6 +214,10 @@ section h2 {
   margin-top: 100px;
 }
 
+.aligndots {
+  margin-left: -15px;
+}
+
 table, th, td {
   color: #c7c6e0;
   border: 1px solid;
@@ -222,3 +229,4 @@ table {
   height: 1100px;
   width: 750px;
 }
+
