@@ -1,33 +1,78 @@
-.main {
-  background-color: #8d76ffed;
-  width: 950px;
-  height: 1500px;
-  margin: auto;
-  margin-bottom: 45px;
-  border-radius: 5%;
-}
-
-.groter {
-  color: #a6c7ff;
-  font-size: 45px;
-  text-shadow: 3px 3px #6464655f;
-  height: 40px
-}
-
 body {
-  color: rgb(0, 0, 0);
   background-image: url(/resources/Aanlichten\ Middelburg_0.jpg);
   background-repeat: no-repeat;
-  background-position: absolute;
   background-size: cover;
   background-attachment: fixed;
   font-family: Verdana, Tahoma, sans-serif;
 }
 
-div {
+body div div div p {
+  text-align: left;
+  color: #c7c6e0;
+  text-shadow: 2px 2px #6464655f;
+}
+
+body div footer {
+  margin-right: -40px;
+  text-shadow: 2px 2px #6464655f;
+  width: 850px;
+}
+
+body div div {
+  width: 850px;
+  margin: auto;
+}
+
+table,
+th,
+td {
+  color: #c7c6e0;
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: #22215d;
+}
+
+table {
+  height: 1100px;
+  width: 750px;
+}
+
+
+footer a {
+  color: #DBBFDB;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 3px;
+}
+
+body div div div img {
+  padding-top: 55px;
+  float: left;
+  width: 33.33%;
+  height: 282.3px;
+}
+
+body div div div div {
+  height: 350px;
+}
+
+h2 {
+  color: #a6c7ff;
+  text-shadow: 3px 3px #6464655f;
+  font-size: 25px;
+}
+
+footer {
   text-align: center;
-  display: block;
-  width: 40%;
+  position: absolute;
+  margin: auto;
+  top: 1440px;
+  right: 10%;
+}
+
+div {
   position: relative;
 }
 
@@ -36,6 +81,42 @@ nav {
   text-align: left;
   margin-left: 15px;
   font-size: 20px;
+}
+
+figcaption {
+  color: #c7c6e0;
+  text-shadow: 2px 2px #6464655f;
+}
+
+nav a {
+  color: #DBBFDB;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  text-shadow: 2px 2px #6464655f;
+}
+
+a:hover {
+  color: white;
+  filter: brightness(135%);
+  filter: drop-shadow(5px 5px 7px rgba(115, 241, 255, 0.866));
+}
+
+a:active {
+  color: #7371FC;
+  text-decoration: underline;
+}
+
+.columns {
+  display: table;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .center_hz {
@@ -55,64 +136,6 @@ nav {
   margin-right: auto;
   border-radius: 50%;
   margin-top: 15px;
-}
-
-nav a {
-  color: #DBBFDB;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-right: auto;
-  text-decoration: none;
-  text-shadow: 2px 2px #6464655f;
-}
-
-footer a {
-  color: #DBBFDB;
-  font-size: 20px;
-  text-decoration: none;
-  padding-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-right: 3px;
-}
-
-footer {
-  text-align: center;
-  position: absolute;
-  padding: auto;
-  margin: auto;
-  top: 1440px;
-  width: 80%;
-  right: 10%;
-}
-
-
-a:hover {
-  color: white;
-  filter: brightness(135%);
-  filter: drop-shadow(5px 5px 7px rgba(115, 241, 255, 0.866));
-}
-
-a:active {
-  color: #7371FC;
-}
-
-.columns {
-  display: table;
-  padding: 25px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.navbar {
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  color: #a6c7ff;
-  text-shadow: 3px 3px #6464655f;
-  font-size: 25px;
 }
 
 .section1 {
@@ -162,14 +185,20 @@ h2 {
   text-shadow: 2px 2px #6464655f;
 }
 
-body div div {
-  width: 850px;
-  height: 800px;
+.main {
+  background-color: #8d76ffed;
+  width: 950px;
+  height: 1500px;
   margin: auto;
+  margin-bottom: 45px;
+  border-radius: 5%;
 }
 
-section h2 {
-  float: center
+.groter {
+  color: #a6c7ff;
+  font-size: 45px;
+  text-shadow: 3px 3px #6464655f;
+  height: 40px
 }
 
 .fleft {
@@ -213,67 +242,26 @@ section h2 {
   margin-left: -15px;
 }
 
-table,
-th,
-td {
-  color: #c7c6e0;
-  border: 1px solid;
-  border-collapse: collapse;
-  border-color: #22215d;
-}
-
-table {
-  height: 1100px;
-  width: 750px;
-}
-
 .topmargin {
   margin-top: 65px;
-}
-
-body div div div p {
-  text-align: left;
-  color: #c7c6e0;
-  text-shadow: 2px 2px #6464655f;
-}
-
-body div footer {
-  margin-right: -40px;
-  text-shadow: 2px 2px #6464655f;
-  width: 850px;
 }
 
 .instapadding {
   margin-left: 140px
 }
 
- body div div div img {
-  padding-top: 55px;
-  float: left;
+.figleft {
   width: 33.33%;
-  height: 282.3px;
- }
- body div div div div {
-  height: 350px;
- }
+}
 
- .figleft {
-  width: 33.33%;
- }
-
- .figcenter {
+.figcenter {
   margin-top: -17px;
   margin-left: 33.33%;
   width: 33.33%;
- }
+}
 
- .figright {  
- width: 33.33%;
- margin-left: 66.66%;
- margin-top: -20px;
- }
-
- figcaption {
-  color: #c7c6e0;
-  text-shadow: 2px 2px #6464655f;
- }
+.figright {
+  width: 33.33%;
+  margin-left: 66.66%;
+  margin-top: -20px;
+}
