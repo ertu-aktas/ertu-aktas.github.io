@@ -224,6 +224,7 @@ a:active {
 
 .aboutmeheader {
   margin-top: 90px;
+  text-align: center;
 }
 
 .aboutme {
@@ -244,6 +245,7 @@ a:active {
 
 .topmargin {
   margin-top: 65px;
+  text-align: center;
 }
 
 .instapadding {
@@ -252,16 +254,19 @@ a:active {
 
 .figleft {
   width: 33.33%;
+  text-align: center;
 }
 
 .figcenter {
   margin-top: -17px;
   margin-left: 33.33%;
   width: 33.33%;
+  text-align: center;
 }
 
 .figright {
   width: 33.33%;
   margin-left: 66.66%;
   margin-top: -20px;
+  text-align: center;
 }
