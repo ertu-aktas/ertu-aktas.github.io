@@ -4,7 +4,7 @@
   height: 1500px;
   margin: auto;
   margin-bottom: 45px;
-  border-radius: 5%;
+  border-radius: 50px;
 }
 
 body {
@@ -129,7 +129,36 @@ a:hover {
 
 a:active {
   color: #7371FC;
+}
+
+.indexunderline {
   text-decoration: underline;
+  font-weight: bold;
+}
+
+.profileunderline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.dashboardunderline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.faqunderline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.blogunderline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.postsunderline {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .columns {
@@ -315,4 +344,37 @@ a:active {
 .postsfooter {
   bottom: 2%;
   position: absolute;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  bottom: 78px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b0a0ffed;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 150px
+}
+
+span {
+  font-size: 35px;
+  text-shadow: 3px 3px #6464655f;
+  color: #DBBFDB;
+}
+
+ul li, ul li a {
+  color: #DBBFDB;
+  text-decoration: none;
 }
