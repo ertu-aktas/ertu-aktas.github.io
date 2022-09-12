@@ -24,6 +24,21 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
 }
 
+.line:after {
+  content: " ";
+  display: block;
+  background-color: #1274d54a;
+  border-bottom: 3px solid #1274d54a;
+  border-top: 3px solid #1274d54a;
+  border-radius: 7px;
+  width: 70%;
+  margin: auto;
+}
+
+.linecenter {
+  float: left;
+}
+
 body div div div p {
   float: right;
   color: #c7c6e0;
@@ -360,7 +375,7 @@ a:active {
   position: relative;
   display: inline-block;
   margin-left: 40px;
-  bottom: 78px;
+  bottom: 87px;
   width: 60px;
 }
 
