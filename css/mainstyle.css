@@ -351,6 +351,7 @@ a:active {
   display: inline-block;
   margin-left: 40px;
   bottom: 78px;
+  width: 60px;
 }
 
 .dropdown-content {
@@ -365,7 +366,8 @@ a:active {
 
 .dropdown:hover .dropdown-content {
   display: block;
-  width: 150px
+  width: 260px;
+  text-shadow: 3px 3px #6464655f;
 }
 
 span {
@@ -377,4 +379,13 @@ span {
 ul li, ul li a {
   color: #DBBFDB;
   text-decoration: none;
+}
+
+.dropdownbutton {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
