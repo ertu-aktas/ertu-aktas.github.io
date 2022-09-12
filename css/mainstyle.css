@@ -1,10 +1,19 @@
+/* TO ADD PERCENTAGE BAR, change the hard value in dashboard.html. probably have to adjust margin left as well. */
+.progress .bar .percent {
+  color: #DBBFDB;
+  background-color: #43a49f;
+  width: 0%;
+  border-radius: 10px;
+}
+
 .main {
-  background-color: #8d76ffed;
+  background-color: #8d76ffbe;
   width: 950px;
   height: 1500px;
   margin: auto;
   margin-bottom: 45px;
   border-radius: 50px;
+  backdrop-filter: blur(3px);
 }
 
 body {
@@ -161,6 +170,11 @@ a:active {
   font-weight: bold;
 }
 
+.faqlinkunderline {
+  font-weight: bold;
+  color: #DBBFDB;
+}
+
 .columns {
   display: table;
   padding: 25px;
@@ -289,10 +303,6 @@ a:active {
   text-align: center;
 }
 
-.instapadding {
-  margin-left: 140px
-}
-
 .figleft {
   width: 33.33%;
   text-align: center;
@@ -357,11 +367,13 @@ a:active {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #b0a0ffed;
+  background-color: #b0a0ff51;
   min-width: 60px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
+  border-radius: 5px;
+  backdrop-filter: blur(3px);
 }
 
 .dropdown:hover .dropdown-content {
@@ -381,11 +393,87 @@ ul li, ul li a {
   text-decoration: none;
 }
 
-.dropdownbutton {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.biggerh3 {
+  font-size: 20px;
+  text-shadow: 3px 3px #6464655f;
+  color: #DBBFDB;
+  margin-top: 75px;
+}
+
+.properp {
+  width: 700px;
+  text-shadow: 3px 3px #6464655f;
+  color: #DBBFDB;
+  padding-left: 90px;
+}
+
+.progress {
+  width: 600px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+  color: #DBBFDB;
+  text-shadow: 2px 2px #6464655f;
+}
+.progress header span {
+  color: black;
+  float: right;
+}
+.progress .bar {
+  position: relative;
+  background-color: rgb(143, 143, 143);
+  border-radius: 10px;
+}
+
+/* left: beginnen bij 1% ivm netheid daarna left % gelijkstellen aan width .progress .bar .percent */
+.progress .bar .percent .text {
+  color: #d5b6d5;
+  text-shadow: 2px 2px #6464655f;
+  font-weight: bold;
+  position: absolute;
+  left: 42%;
+  top: 0;
+  margin-left: 3px;
+}
+.progress .bar .ref {
+  position: absolute;
+  left: 75%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: black;
+}
+.progress .bar .ref:before {
+  content: attr(data-ref);
+  position: absolute;
+  width: 100px;
+  left: -50px;
+  top: 100%;
+  color: #DBBFDB;
+  text-shadow: 2px 2px #6464655f;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bar {
+  height: 20px;
+}
+
+.percent {
+  height: 20px;
+  margin-left: 0px;
+}
+
+.text {
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+
+.progressionpadding {
+  margin-top: 15px;
+  padding-bottom: 25px;
+}
+
+.floatright {
+  float: right;
 }
