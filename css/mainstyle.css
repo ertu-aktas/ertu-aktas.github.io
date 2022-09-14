@@ -49,6 +49,8 @@ body {
 
 #profilediv {
   height: 350px;
+  border-width: 0px;
+  margin-top: 50px;
 }
 
 .profilep {
@@ -57,14 +59,16 @@ body {
 }
 
 .abouttable {
-  display: grid;
   justify-content: center;
   width: 500px;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  border: 0px;
-  border-collapse: unset;
+  height: 300px; 
   margin: auto;
+  border: none !important;
+  color: #c7c6e0;
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: #22215d;
+  text-shadow: 2px 2px #6464655f;
 }
 
 .profilelist {
@@ -84,7 +88,7 @@ body {
 .profilepright {
   position: absolute;
   left: 300px;
-  bottom: 131px;
+  bottom: 137px;
   color: #DBBFDB;
   text-shadow: 2px 2px #6464655f;
 }
@@ -112,9 +116,15 @@ body div div {
   width: 120px;
 }
 
-table,
-th,
-td {
+.dashboardth {
+  color: #c7c6e0;
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: #22215d;
+  text-shadow: 2px 2px #6464655f;
+}
+
+.dashboardtd {
   color: #c7c6e0;
   border: 2px solid;
   border-collapse: collapse;
@@ -132,6 +142,11 @@ th, td {
   width: 850px;
   margin-left: auto;
   margin-right: auto;
+  color: #c7c6e0;
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: #22215d;
+  text-shadow: 2px 2px #6464655f;
 }
 
 ol {
