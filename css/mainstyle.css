@@ -7,13 +7,14 @@
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
+  color: #c7c6e0;
 }
 
 .main {
   background-color: #7c7c7c71;
-  width: 1150px;
-  height: 1600px;
+  width: 1350px;
+  height: 1700px;
   margin: auto;
   margin-bottom: 45px;
   border-radius: 50px;
@@ -59,11 +60,25 @@ body {
 }
 
 .profilep {
+  width: 300px;
+  font-size: 30px;
   color: #DBBFDB;
   text-shadow: 3px 2px #3131315f;
 }
 
+.profilepright {
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  right: 195px;
+  bottom: 385px;
+  color: #DBBFDB;
+  text-shadow: 3px 2px #3131315f;
+  justify-content: center;
+}
+
 .abouttable {
+  font-size: 25px;
   justify-content: center;
   width: 500px;
   height: 300px; 
@@ -78,8 +93,8 @@ body {
 
 .profilelist {
   position: absolute;
-  left: 300px;
-  bottom: -15px;
+  left: 470px;
+  bottom: 0px;
 }
 
 .thoffset {
@@ -88,14 +103,6 @@ body {
 
 .tdoffset {
   text-align: justify;
-}
-
-.profilepright {
-  position: absolute;
-  left: 300px;
-  bottom: 137px;
-  color: #DBBFDB;
-  text-shadow: 3px 2px #3131315f;
 }
 
 body div div div p {
@@ -123,7 +130,7 @@ body div div {
 
 .dashboardth {
   color: #c7c6e0;
-  border: 2px solid;
+  border: 3px solid;
   border-collapse: collapse;
   border-color: #22215d;
   text-shadow: 3px 2px #3131315f;
@@ -131,7 +138,7 @@ body div div {
 
 .dashboardtd {
   color: #c7c6e0;
-  border: 2px solid;
+  border: 3px solid;
   border-collapse: collapse;
   border-color: #22215d;
   text-shadow: 3px 2px #3131315f;
@@ -143,6 +150,7 @@ th, td {
 
 
 .dashboardtable {
+  font-size: 25px;
   height: 1000px;
   width: 850px;
   margin-left: auto;
@@ -155,7 +163,7 @@ th, td {
 }
 
 ol {
-  font-size: 20px;
+  font-size: 25px;
   color: #c7c6e0;
   text-shadow: 3px 2px #3131315f;
 }
@@ -184,7 +192,7 @@ body div div div div {
 h2 {
   color: #DBBFDB;
   text-shadow: 3px 2px #3131315f;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 footer {
@@ -206,6 +214,7 @@ nav {
 }
 
 figcaption {
+  font-size: 20px;
   color: #c7c6e0;
   text-shadow: 3px 2px #3131315f;
 }
@@ -300,7 +309,7 @@ a:active {
 .groter {
   text-align: center;
   color: #fadaffbd;
-  font-size: 45px;
+  font-size: 55px;
   text-shadow: 3px 2px #3131315f;
   height: 40px
 }
@@ -351,7 +360,7 @@ a:active {
 }
 
 .figcenter {
-  margin-top: -17px;
+  margin-top: -23px;
   margin-left: 33.33%;
   width: 33.33%;
   text-align: center;
@@ -360,13 +369,13 @@ a:active {
 .figright {
   width: 33.33%;
   margin-left: 66.66%;
-  margin-top: -20px;
+  margin-top: -25px;
   text-align: center;
 }
 
 /*To adjust the height of the index page alone. The contents did not fit on original height so that's why I made a seperate class.*/
 .indexheight {
-  height: 2100px !important;
+  height: 2500px !important;
 }
 
 .indexfooter {
@@ -438,12 +447,13 @@ span {
 }
 
 ul li, ul li a {
+  font-size: 25px;
   color: #DBBFDB;
   text-decoration: none;
 }
 
 .biggerh3 {
-  font-size: 20px;
+  font-size: 35px;
   font-weight: bold;
   text-shadow: 3px 2px #3131315f;
   color: #DBBFDB;
@@ -458,6 +468,7 @@ ul li, ul li a {
 }
 
 .progress {
+  font-size: 25px;
   width: 600px;
   padding-top: 15px;
   padding-bottom: 10px;
@@ -506,7 +517,7 @@ ul li, ul li a {
 }
 
 .bar {
-  height: 20px;
+  height: 35px;
 }
 
 .percent {
@@ -522,10 +533,6 @@ ul li, ul li a {
 .progressionpadding {
   margin-top: 15px;
   padding-bottom: 25px;
-}
-
-.floatright {
-  float: right;
 }
 
 .blogsection  {
@@ -563,7 +570,6 @@ ul li, ul li a {
 }
 
 .blogp {
-  margin-top: 13%;
   display: block;
   margin-left: 12.5px;
   margin-right: 12.5px;
