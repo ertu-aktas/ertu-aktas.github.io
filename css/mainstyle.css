@@ -6,6 +6,12 @@
   border-radius: 10px;
 }
 
+header {
+  display: flex;
+  width: 1350px;
+  margin: auto;
+}
+
 p {
   font-size: 25px;
   color: #c7c6e0;
@@ -23,6 +29,7 @@ p {
 
 body {
   background-image: url(/resources/Aanlichten\ Middelburg_0.jpg);
+  background-color: #b3591dd1;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -284,9 +291,9 @@ a:active {
 }
 
 .center_hz {
-  text-align: center;
-  margin: auto;
-  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
   margin-top: 25px;
   width: 150px;
 }
@@ -371,6 +378,11 @@ a:active {
   margin-left: 66.66%;
   margin-top: -25px;
   text-align: center;
+}
+
+.borderimg {
+  border-width: 2px black;
+  z-index: 1000;
 }
 
 /*To adjust the height of the index page alone. The contents did not fit on original height so that's why I made a seperate class.*/
