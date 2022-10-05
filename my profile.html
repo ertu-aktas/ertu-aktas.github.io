@@ -1,134 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>My profile</title>
-    <link href="css/mainstyle.css" rel="stylesheet">
+    <link href="css/mainstyle.css" rel="stylesheet" />
     <script>
-        function getAge(dateString) {
-            var today = new Date();
-            var birthDate = new Date(dateString);
-            var age = today.getFullYear() - birthDate.getFullYear();
-            var m = today.getMonth() - birthDate.getMonth();
-            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-                age--;
-            }
-            return age;
+      function getAge(dateString) {
+        var today = new Date();
+        var birthDate = new Date(dateString);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
         }
-        function insertText() {
-            document.getElementById('age').innerHTML = getAge("2000/08/08");
-        }
+        return age;
+      }
+      function insertText() {
+        document.getElementById("age").innerHTML = getAge("2000/08/08");
+      }
     </script>
-</head>
+  </head>
 
-<body onload="insertText();">
+  <body onload="insertText();">
     <header>
-        <img class="center_hz" src="resources/hz-logo-removebg-preview.png" alt="HZ logo">
+      <img
+        class="center_hz"
+        src="resources/hz-logo-removebg-preview.png"
+        alt="HZ logo"
+      />
     </header>
     <div class="main">
-        <nav class="columns navbar">
-            <a href="index.html">Homepage</a>
-            <a class="profileunderline" href="my profile.html">Profile</a>
-            <a href="dashboard.html">Dashboard</a>
-            <a href="faq.html">FAQ</a>
-            <a href="blog.html">Blog</a>
-        </nav>
-        <div class="dropdown">
-            <span>≡</span>
-            <div class="dropdown-content">
-                <ul>
-                    <li><a target="blank"
-                            href="https://hz.nl/en/about-hz/regulations-documents/regulations-study-programmes">Regulations
-                            Study Programmes</a></li>
-                    <li><a target="blank"
-                            href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">Implementation
-                            Regulations ICT</a></li>
-                    <li><a target="blank"
-                            href="https://glaze-donut-5a5.notion.site/PCO1en-Your-Showcase-Website-7bc8c340f66047d0b49b83e8dc44ba23">notion
-                            PCO1 assignment</a></li>
-                    <li><a target="blank"
-                            href="https://teams.microsoft.com/_?culture=en-us&country=WW&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/General?threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel">teams
-                            ICT</a></li>
-                    <li><a target="blank" href="https://hz.osiris-student.nl/#code=T2NheX">OSIRIS</a></li>
-                    <li><a target="blank" href="https://github.com/HZ-HBO-ICT">github</a></li>
-                    <li><a href="js/empty.html">Empty</a></li>
-                </ul>
-            </div>
+      <nav class="columns navbar">
+        <a href="index.html">Homepage</a>
+        <a class="profileunderline" href="my profile.html">Profile</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <div class="dropdown">
+        <span>≡</span>
+        <div class="dropdown-content">
+          <ul>
+            <li>
+              <a
+                target="blank"
+                href="https://hz.nl/en/about-hz/regulations-documents/regulations-study-programmes"
+                >Regulations Study Programmes</a
+              >
+            </li>
+            <li>
+              <a
+                target="blank"
+                href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf"
+                >Implementation Regulations ICT</a
+              >
+            </li>
+            <li>
+              <a
+                target="blank"
+                href="https://glaze-donut-5a5.notion.site/PCO1en-Your-Showcase-Website-7bc8c340f66047d0b49b83e8dc44ba23"
+                >notion PCO1 assignment</a
+              >
+            </li>
+            <li>
+              <a
+                target="blank"
+                href="https://teams.microsoft.com/_?culture=en-us&country=WW&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/General?threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel"
+                >teams ICT</a
+              >
+            </li>
+            <li>
+              <a target="blank" href="https://hz.osiris-student.nl/#code=T2NheX"
+                >OSIRIS</a
+              >
+            </li>
+            <li>
+              <a target="blank" href="https://github.com/HZ-HBO-ICT">github</a>
+            </li>
+            <li><a href="js/empty.html">Empty</a></li>
+          </ul>
         </div>
-        <h1 class="groter">My profile</h1>
-        <div>
-            <img class="center3" src="resources/114bea4a-6b53-4cca-90ea-fc3ffdea2ab1.jpg"
-                alt="me drinking coffee with a serieus look">
-            <p class="blogp"><em>Me thinking hard about what to put on my profile page.</em></p>
-        </div>
-        <div id="profilediv">
-            <table class="abouttable">
-                <tbody>
-                    <tr>
-                        <th class="thoffset">Name:</th>
-                        <td class="tdoffset">Ertugrul</td>
-                    </tr>
-                    <tr>
-                        <th class="thoffset">Surname:</th>
-                        <td class="tdoffset">Aktas</td>
-                    </tr>
-                    <tr>
-                        <th class="thoffset">Age:</th>
-                        <td class="tdoffset" id="age"></td>
-                    </tr>
-                    <tr>
-                        <th class="thoffset">Town:</th>
-                        <td class="tdoffset">Aktas</td>
-                    </tr>
-                    <tr>
-                        <th class="thoffset">Education:</th>
-                        <td class="tdoffset">HBO ICT</td>
-                    </tr>
-                    <tr>
-                        <th class="thoffset">School:</th>
-                        <td class="tdoffset">HZ</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <p class="profilepright"><strong>Negative character traits</strong></p>
-        <div>
-            <p class="profilep"><strong>Positive character traits</strong></p>
-            <ul>
-                <li>honest</li>
-                <li>critical thinker</li>
-                <li>direct</li>
-                <li>enthousiastic</li>
-                <li>eager to learn</li>
-                <li>serious</li>
-                <li>true to my word</li>
-            </ul>
-        </div>
-        <div>
-            <ul class="profilelist">
-                <li>honest</li>
-                <li>skeptic</li>
-                <li>overthinker</li>
-                <li>rigid</li>
-                <li>cynical</li>
-                <li>(sometimes)disorganized</li>
-                <li>pessimistic</li>
-            </ul>
-        </div>
-        <footer class="profilefooter">
-            <a target=”_blank” href="https://hz.nl/en/">HZ</a>
-            <a target=”_blank” href="https://portal.hz.nl/en/">HZ Portal</a>
-            <a target=”_blank” href="https://learn.hz.nl/my/">HZ Learn</a>
-            <a target=”_blank”
-                href="https://webshop.hz.nl/WebshopApp/defaulten.aspx?menu=082076044027019251066025111065201099237062130097">HZ
-                webshop</a>
-            <a target="blank" href="https://github.com/ertu-aktas">Github</a>
-            <a target=”_blank” href="https://www.instagram.com/ertu2088/">Instagram</a>
-            <a target=”_blank” href="https://www.facebook.com/ertu8820">Facebook</a>
-        </footer>
+      </div>
+      <h1 class="groter">My profile</h1>
+      <div>
+        <img
+          class="center3"
+          src="resources/114bea4a-6b53-4cca-90ea-fc3ffdea2ab1.jpg"
+          alt="me drinking coffee with a serieus look"
+        />
+        <p class="blogp">
+          <em>Me thinking hard about what to put on my profile page.</em>
+        </p>
+      </div>
+      <div id="profilediv">
+        <table class="abouttable">
+          <tbody>
+            <tr>
+              <th class="thoffset">Name:</th>
+              <td class="tdoffset">Ertugrul</td>
+            </tr>
+            <tr>
+              <th class="thoffset">Surname:</th>
+              <td class="tdoffset">Aktas</td>
+            </tr>
+            <tr>
+              <th class="thoffset">Age:</th>
+              <td class="tdoffset" id="age"></td>
+            </tr>
+            <tr>
+              <th class="thoffset">Town:</th>
+              <td class="tdoffset">Aktas</td>
+            </tr>
+            <tr>
+              <th class="thoffset">Education:</th>
+              <td class="tdoffset">HBO ICT</td>
+            </tr>
+            <tr>
+              <th class="thoffset">School:</th>
+              <td class="tdoffset">HZ</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="profilepright"><strong>Negative character traits</strong></p>
+      <div>
+        <p class="profilep"><strong>Positive character traits</strong></p>
+        <ul>
+          <li>honest</li>
+          <li>critical thinker</li>
+          <li>direct</li>
+          <li>enthousiastic</li>
+          <li>eager to learn</li>
+          <li>serious</li>
+          <li>true to my word</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="profilelist">
+          <li>honest</li>
+          <li>skeptic</li>
+          <li>overthinker</li>
+          <li>rigid</li>
+          <li>cynical</li>
+          <li>(sometimes)disorganized</li>
+          <li>pessimistic</li>
+        </ul>
+      </div>
+      <footer class="profilefooter">
+        <a target="”_blank”" href="https://hz.nl/en/">HZ</a>
+        <a target="”_blank”" href="https://portal.hz.nl/en/">HZ Portal</a>
+        <a target="”_blank”" href="https://learn.hz.nl/my/">HZ Learn</a>
+        <a
+          target="”_blank”"
+          href="https://webshop.hz.nl/WebshopApp/defaulten.aspx?menu=082076044027019251066025111065201099237062130097"
+          >HZ webshop</a
+        >
+        <a target="blank" href="https://github.com/ertu-aktas">Github</a>
+        <a target="”_blank”" href="https://www.instagram.com/ertu2088/"
+          >Instagram</a
+        >
+        <a target="”_blank”" href="https://www.facebook.com/ertu8820"
+          >Facebook</a
+        >
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
