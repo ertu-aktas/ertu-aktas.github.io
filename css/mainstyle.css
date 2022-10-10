@@ -63,6 +63,10 @@ body {
   margin: auto;
 }
 
+.dashboardColor {
+  color: #fadaffbd !important;
+}
+
 .linecenter {
   float: left;
 }
@@ -73,10 +77,14 @@ body {
   margin-top: 50px;
 }
 
+.centerText {
+  margin-top: 50px;
+}
+
 .profilep {
   width: 300px;
   font-size: 30px;
-  color: #DBBFDB;
+  color: #fadaffbd !important;
   text-shadow: 3px 2px #3131315f;
 }
 
@@ -85,8 +93,8 @@ body {
   position: absolute;
   display: flex;
   right: 295px;
-  bottom: 484px;
-  color: #DBBFDB;
+  bottom: 46px;
+  color: #fadaffbd !important;
   text-shadow: 3px 2px #3131315f;
   justify-content: center;
 }
@@ -192,10 +200,10 @@ footer a {
 }
 
 body div div div img {
-  padding-top: 55px;
   float: left;
   width: 33.33%;
   height: 282.3px;
+  box-shadow: 15px 13px 17px #31313192;
 }
 
 body div div div div {
@@ -305,6 +313,7 @@ a:active {
   margin-right: auto;
   border-radius: 50%;
   margin-top: 15px;
+  box-shadow: 15px 13px 17px #31313191;
 }
 
 .center3 {
@@ -312,13 +321,14 @@ a:active {
   height: auto;
   display: block;
   margin: auto;
+  box-shadow: 15px 13px 17px #31313191;
 }
 
 .groter {
   text-align: center;
   color: #fadaffbd;
   font-size: 55px;
-  text-shadow: 3px 2px #3131315f;
+  text-shadow: 7px 5px 3px #3131315f;
   height: 40px
 }
 
@@ -384,6 +394,7 @@ a:active {
 .borderimg {
   border-width: 2px black;
   z-index: 1000;
+  height: 305px;
 }
 
 /*To adjust the height of the index page alone. The contents did not fit on original height so that's why I made a seperate class.*/
@@ -470,7 +481,7 @@ ul li, ul li a {
   font-size: 35px;
   font-weight: bold;
   text-shadow: 3px 2px #3131315f;
-  color: #DBBFDB;
+  color: #fadaffbd !important;
   margin-top: 75px;
 }
 
@@ -588,7 +599,6 @@ ul li, ul li a {
   margin-left: 12.5px;
   margin-right: 12.5px;
   text-align: center;
-  color: #c7c6e0;
   text-shadow: 3px 2px #3131315f;
 }
 
