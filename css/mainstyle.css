@@ -93,7 +93,7 @@ body {
   position: absolute;
   display: flex;
   right: 295px;
-  bottom: 46px;
+  bottom: 467px;
   color: #fadaffbd !important;
   text-shadow: 3px 2px #3131315f;
   justify-content: center;
@@ -104,7 +104,7 @@ body {
   justify-content: center;
   width: 500px;
   height: 300px; 
-  margin: auto;
+  margin-left: 29%;
   border: none !important;
   color: #c7c6e0;
   border: 2px solid;
