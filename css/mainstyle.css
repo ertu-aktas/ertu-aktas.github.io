@@ -93,7 +93,7 @@ body {
   position: absolute;
   display: flex;
   right: 295px;
-  bottom: 467px;
+  bottom: 445px;
   color: #fadaffbd !important;
   text-shadow: 3px 2px #3131315f;
   justify-content: center;
@@ -617,7 +617,7 @@ ul li, ul li a {
 }
 
 .centerText2 {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 
