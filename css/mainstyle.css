@@ -24,6 +24,26 @@ li, p, figcaption, td, th, summary {
   text-shadow: 3px 2px #3131315f;
 }
 
+.trafficlight {
+  background-color: #7c7c7c84;
+  width: 1350px;
+  height: 6300px;
+  margin: auto;
+  margin-bottom: 45px;
+  border-radius: 50px;
+  backdrop-filter: blur(13px);
+}
+
+.swot {
+  background-color: #7c7c7c84;
+  width: 1350px;
+  height: 3300px;
+  margin: auto;
+  margin-bottom: 45px;
+  border-radius: 50px;
+  backdrop-filter: blur(13px);
+}
+
 .main {
   background-color: #7c7c7c84;
   width: 1350px;
@@ -593,6 +613,18 @@ ul li, ul li a {
   float: right;
   margin-right: 4.9%;
   margin-top: 7.4%
+}
+
+.blogsectionright3 {
+  float: right;
+  margin-right: 4.9%;
+  margin-top: 11%
+}
+
+.blogsectionleft3 {
+  float: left;
+  margin-left: 3%;
+  margin-top: 35%;
 }
 
 .blogdiv {
