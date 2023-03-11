@@ -35,7 +35,7 @@ li, p, figcaption, td, th, summary {
 }
 
 body {
-  background-image: url(/resources/Aanlichten\ Middelburg_0.jpg);
+  background-image: url(../resources/middelburg.jpg);
   background-color: #b3591dd1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -283,10 +283,16 @@ a:active {
   font-weight: bold;
 }
 
+.ppdunderline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .faqlinkunderline {
   font-weight: bold;
   color: #DBBFDB;
 }
+
 
 .columns {
   display: table;
