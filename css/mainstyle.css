@@ -34,6 +34,26 @@ li, p, figcaption, td, th, summary {
   backdrop-filter: blur(13px);
 }
 
+.peerReview {
+  background-color: #7c7c7c84;
+  width: 1350px;
+  height: 5000px;
+  margin: auto;
+  margin-bottom: 45px;
+  border-radius: 50px;
+  backdrop-filter: blur(13px);
+}
+
+.conversation {
+  background-color: #7c7c7c84;
+  width: 1350px;
+  height: 2300px;
+  margin: auto;
+  margin-bottom: 45px;
+  border-radius: 50px;
+  backdrop-filter: blur(13px);
+}
+
 .swot {
   background-color: #7c7c7c84;
   width: 1350px;
