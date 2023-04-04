@@ -680,6 +680,15 @@ ul li, ul li a {
   text-shadow: 3px 2px #3131315f;
 }
 
+.blogp3 {
+  display: block;
+  float: right;
+  margin-top: 63px;
+  margin-right: 8%;
+  text-align: center;
+  text-shadow: 3px 2px #3131315f;
+}
+
 .centerText {
   margin-top: 50px;
 }
