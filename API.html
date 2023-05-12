@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>trafficlight</title>
+  <title>conversation</title>
   <link href="/css/mainstyle.css" rel="stylesheet">
 </head>
 
@@ -13,15 +13,16 @@
     <a target="_blank" href="https://hz.nl/" class="center_hz"><img class="center_hz"
         src="/resources/hz-logo-removebg-preview.png" alt="HZ logo" /></a>
   </header>
-  <div class="trafficlight">
+  <div class="conversation">
     <nav class="columns navbar">
       <a href="../index.html">Homepage</a>
       <a href="../my profile.html">Profile</a>
       <a href="../dashboard.html">Dashboard</a>
       <a href="../faq.html">FAQ</a>
       <a href="../blog.html">Blog</a>
-      <a class="ppdunderline" href="../ppd.html">PPD</a>
-      <a href="../API.html">API</a>
+      <a href="../ppd.html">PPD</a>
+      <a class="APIunderline" href="../API.html">API</a>
+
     </nav>
     <div class="dropdown">
       <span>≡</span>
@@ -45,13 +46,9 @@
       </div>
     </div>
     <p class="tag"><a href="../ppd.html">◄</a></p>
-    <h1 class="groter">Proof of trafficlight hand in</h1>
+    <h1 class="groter">cat pictures</h1>
 
-    <div>
-      <p><a target="_blank" href="/resources/ppd-files/trafficlight/Worksheets_TrafficLight2021.pdf">trafficlight
-          document</a></p>
-    </div>
-    <img src="/resources/ppd-files/trafficlight/trafficlightHandIn.png" width="1300" , height="700">
+    <div id="cat_img"></div>
 
     <footer class="blogfooter">
       <a target="blank" href="https://hz.nl/en/">HZ</a>
@@ -64,5 +61,34 @@
       <a target="blank" href="https://www.facebook.com/ertu8820">Facebook</a>
     </footer>
   </div>
+  <script>
+    getSwapiData();
+
+    function getSwapiData() {
+      fetch(`https://api.thecatapi.com/v1/images/search`)
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          data.map(function (imageData) {
+            let image = document.createElement('img');
+            //use the url from the image object
+            image.src = `${imageData.url}`;
+            document.getElementById('cat_img').appendChild(image);
+          });
+        });
+    };
+
+  </script>
 </body>
+knock knock.
+
+who's there?
+
+driver.
+
+driver who?
+
+driver in ya hole.
+
 </html>
