@@ -48,7 +48,10 @@
     <p class="tag"><a href="../ppd.html">◄</a></p>
     <h1 class="groter">cat pictures</h1>
 
-    <div id="cat_img"></div>
+    <h3 class=""></h3>
+    <button id="capybaraBtn">capybara</button>
+    <button id="catBtn">cat</button>
+    <div id="img"></div>
 
     <footer class="blogfooter">
       <a target="blank" href="https://hz.nl/en/">HZ</a>
@@ -62,9 +65,38 @@
     </footer>
   </div>
   <script>
-    getSwapiData();
+    const catBtn = document.getElementById('catBtn');
+    const capybaraBtn = document.getElementById('capybaraBtn');
 
-    function getSwapiData() {
+    catBtn.addEventListener('click', function () { cat() });
+    capybaraBtn.addEventListener('click', function () { capybara() });
+
+
+    function capybara() {
+      if (document.getElementById('capybara')) {
+        document.getElementById('capybara').remove();
+      } else if (document.getElementById('cat')) {
+        document.getElementById('cat').remove();
+      }
+
+      fetch('https://api.capy.lol/v1/capybara?json=true')
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          let image = document.createElement('img');
+          image.setAttribute('id', 'capybara');
+          image.src = `${data.data.url}`;
+          document.getElementById('img').appendChild(image,);
+        });
+    };
+
+    function cat() {
+      if (document.getElementById('capybara')) {
+        document.getElementById('capybara').remove();
+      } else if (document.getElementById('cat')) {
+        document.getElementById('cat').remove();
+      }
       fetch(`https://api.thecatapi.com/v1/images/search`)
         .then((response) => {
           return response.json();
@@ -72,9 +104,10 @@
         .then((data) => {
           data.map(function (imageData) {
             let image = document.createElement('img');
+            image.setAttribute('id', 'cat');
             //use the url from the image object
             image.src = `${imageData.url}`;
-            document.getElementById('cat_img').appendChild(image);
+            document.getElementById('img').appendChild(image);
           });
         });
     };
