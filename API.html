@@ -86,6 +86,7 @@
         .then((data) => {
           let image = document.createElement('img');
           image.setAttribute('id', 'capybara');
+          image.setAttribute('height', 650);
           image.src = `${data.data.url}`;
           document.getElementById('img').appendChild(image,);
         });
@@ -105,6 +106,7 @@
           data.map(function (imageData) {
             let image = document.createElement('img');
             image.setAttribute('id', 'cat');
+            image.setAttribute('height', 650);
             //use the url from the image object
             image.src = `${imageData.url}`;
             document.getElementById('img').appendChild(image);
