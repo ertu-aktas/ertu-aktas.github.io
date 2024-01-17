@@ -49,9 +49,10 @@
     <h1 class="groter">pictures</h1>
 
     <h3 class=""></h3>
-    <button id="capybaraBtn">capybara</button>
-    <button id="catBtn">cat</button>
-    <div id="img"></div>
+    <div class="cat-div">
+      <button id="catBtn" class="cat-button">Cat</button>
+      <img id="catImg" class="cat-image"></img>
+    </div>
 
     <footer class="blogfooter">
       <a target="blank" href="https://hz.nl/en/">HZ</a>
@@ -64,66 +65,6 @@
       <a target="blank" href="https://www.facebook.com/ertu8820">Facebook</a>
     </footer>
   </div>
-  <script>
-    const catBtn = document.getElementById('catBtn');
-    const capybaraBtn = document.getElementById('capybaraBtn');
-
-    catBtn.addEventListener('click', function () { cat() });
-    capybaraBtn.addEventListener('click', function () { capybara() });
-
-
-    function capybara() {
-      if (document.getElementById('capybara')) {
-        document.getElementById('capybara').remove();
-      } else if (document.getElementById('cat')) {
-        document.getElementById('cat').remove();
-      }
-
-      fetch('https://api.capy.lol/v1/capybara?json=true')
-        .then((response) => {
-          return response.json();
-        })
-        .then((data) => {
-          let image = document.createElement('img');
-          image.setAttribute('id', 'capybara');
-          image.setAttribute('height', 650);
-          image.src = `${data.data.url}`;
-          document.getElementById('img').appendChild(image,);
-        });
-    };
-
-    function cat() {
-      if (document.getElementById('capybara')) {
-        document.getElementById('capybara').remove();
-      } else if (document.getElementById('cat')) {
-        document.getElementById('cat').remove();
-      }
-      fetch(`https://api.thecatapi.com/v1/images/search`)
-        .then((response) => {
-          return response.json();
-        })
-        .then((data) => {
-          data.map(function (imageData) {
-            let image = document.createElement('img');
-            image.setAttribute('id', 'cat');
-            image.setAttribute('height', 650);
-            //use the url from the image object
-            image.src = `${imageData.url}`;
-            document.getElementById('img').appendChild(image);
-          });
-        });
-    };
-
-  </script>
 </body>
-knock knock.
-
-who's there?
-
-driver.
-
-driver who?
-
-driver in ya hole.
-
+<script src="./js/api.js"></script>
 </html>
